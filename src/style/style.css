@@ -1,0 +1,50 @@
+
+@import "../../vendor/uikit/uikit.min.css";
+@import "../../vendor/fa/css/font-awesome.min.css";
+@import "fav_menu.css";
+@import "search.css";
+@import "keyframe.css";
+@import "faccess.css";
+@import "setting.css";
+
+body{
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button::-moz-focus-inner {
+    border: none;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: url("src/images/network.jpg") fixed;*/
+    background: #FFFFFF fixed;
+    background-size: auto 100%;
+    z-index: -1;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: rgba(51, 51, 51, 0.2);
+}
+
+#web {
+    width: 80%;
+    max-width: 1200px;
+    margin: 150px auto 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 20px;
+    z-index: 0;
+}

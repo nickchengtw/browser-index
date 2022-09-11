@@ -1,0 +1,65 @@
+
+#background {
+    background-color: #151515;
+}
+
+#search-text {
+    background-color: #444444;
+    border-color: #444444;
+    color: #FFFFFF;
+}
+
+#search-btn {
+    background: #444444;
+    color: #FFFFFF;
+}
+
+#keyword li {
+    color: #FFFFFF;
+    background-color: #444444;
+}
+
+#keyword li.select {
+    background-color: #333333;
+    animation: kwSelectedD 0.4s;
+}
+
+#fav {
+    background-color: #444444;
+}
+
+#fav-menu a {
+    text-align: center;
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+
+#fav-menu a:hover {
+    color: #1e87f0;
+}
+
+#setting i {
+    color: #CCCCCC;
+}
+
+#fast-access li {
+    background-color: #444444;
+}
+
+#fast-access .faccess-name {
+    color: #FFFFFF;
+}
+
+#fast-access .faccess-url {
+    color: #AAAAAA;
+}
+
+#fast-access .faccess-button {
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+#add-fast-access-btn {
+    background: #444444;
+    color: #FFFFFF;
+}

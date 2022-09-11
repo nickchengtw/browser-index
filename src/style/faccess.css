@@ -1,0 +1,78 @@
+
+#fast-access li {
+    color: #333333;
+    margin-top: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+#fast-access li > * {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#fast-access li > div {
+    width: calc(100% - 100px);
+    height: 30px;
+    padding: 15px 0 15px 20px;
+    font-size: 20px;
+}
+
+#fast-access li > div > * {
+    display: inline-block;
+}
+
+#fast-access .faccess-name {
+    width: 200px;
+    padding: 0;
+}
+
+#fast-access .faccess-url {
+    width: calc(100% - 200px);
+    color: #AAAAAA;
+}
+
+#fast-access .faccess-button {
+    width: 80px;
+    height: 60px;
+    padding: 0;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    color: #333333;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+#fast-access button:hover {
+    color: #1e87f0;
+}
+
+#fast-access li:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#fast-access li:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#add-fast-access-btn {
+    height: 60px;
+    background: #FFFFFF;
+    font: bold 20px sans-serif;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+#add-fast-access-btn {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#fast-access li > div.unfix {
+    width: calc(100% - 180px);
+}
